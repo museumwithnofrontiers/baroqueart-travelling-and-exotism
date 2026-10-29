@@ -1,4 +1,101 @@
 {
-  "about": "TODO(dataset): written by inventory-app's scripts/minisites/legacy-minisite.mjs, with every picture of the frame taken from the legacy exhibition.",
-  "files": {}
+  "about": "The frame this website takes from legacy Discover Baroque Art's virtual exhibition Travelling and Exoticism (exhibitions/BAR/travelling_and_exotism/), each file as legacy serves it, byte for byte; the curators' and the designer's logos come from the exhibitions' shared sponsor_logo folder. tests/assets.test.js checks every file against its hash.",
+  "files": {
+    "theme/assets/legacy/arrow_inner_black.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/arrow_inner_black.gif",
+      "sha256": "a969e5e62fe3c75dcb4e05ef1ca4e38f67a528916db802c229511b44567bd87a"
+    },
+    "theme/assets/legacy/banner.png": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/banner.png",
+      "sha256": "0d341a0f1288a36057e0f48e303f37f6ff1469792e06cc84532003a3e2f5c12c"
+    },
+    "theme/assets/legacy/bg_fading_left.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/bg_fading_left.gif",
+      "sha256": "71065541b89d6b5b3060c22d49eec95658bad1722e3b889b6e5f077302266950"
+    },
+    "theme/assets/legacy/bg_fading_right.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/bg_fading_right.gif",
+      "sha256": "5f118f30230ec4f2d41a0738456bd1b4a1d0fea4eae4275fd19639ff57b4301b"
+    },
+    "theme/assets/legacy/exhibition_bg_ar.jpg": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/exhibition_bg_ar.jpg",
+      "sha256": "2a0ac71f2bc61e57cff1f9470427479d4d17a3d0950ab28104e6c70667d30ac8"
+    },
+    "theme/assets/legacy/exhibition_bg.jpg": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/exhibition_bg.jpg",
+      "sha256": "d67bca0bdf3519b30ab5fc99beacb1946772c07c9a99797082f073fbe5146cce"
+    },
+    "theme/assets/legacy/home_bg_ar.jpg": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/home_bg_ar.jpg",
+      "sha256": "6a38c7c2883e86157e38246b4e1e7ea9db070f54320ac5517964c6fd33c56162"
+    },
+    "theme/assets/legacy/home_bg.jpg": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/home_bg.jpg",
+      "sha256": "19bdca81c3b594342c543d0c6893312f34ba0871f16d5f5b9f630e0f13326248"
+    },
+    "theme/assets/legacy/ico_item_selected.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/ico_item_selected.gif",
+      "sha256": "8e4e35eebb1dda3a1495a2dc7a9d1a4611d9118f3f683a269823da701989feb5"
+    },
+    "theme/assets/legacy/ico_item.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/ico_item.gif",
+      "sha256": "0b630172707e2ed687751dd70acb096ef905a3ee56421c650c227520e10030c8"
+    },
+    "theme/assets/legacy/intro_bg_ar.jpg": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/intro_bg_ar.jpg",
+      "sha256": "1ea048d497a2015eb6978cd0ddcbc7084177d9ce0f5f0b0cd0f74bea97c35c3e"
+    },
+    "theme/assets/legacy/intro_bg.jpg": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/intro_bg.jpg",
+      "sha256": "686dc675dc77b77b24719ff37b1d74cf1fe9459044d993a4ceecaf1cd7eb5872"
+    },
+    "theme/assets/legacy/logo_ar.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_ar.gif",
+      "sha256": "167382bd8784e5519a3092f207d06c03fdaa07b34a672cbb0ac183689bfdf772"
+    },
+    "theme/assets/legacy/logo_de.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_de.gif",
+      "sha256": "d4e6c6a912e78bea483e5f004bcd86e7f8d13104181cc4a3bb7e1684bf5906f6"
+    },
+    "theme/assets/legacy/logo_en.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_en.gif",
+      "sha256": "5f83f6782d82da8acbc78619606b33bd177503a2bead98c5785849e9e1ac0413"
+    },
+    "theme/assets/legacy/logo_es.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_es.gif",
+      "sha256": "ac285fd324a3613d449a5f660623bc31da3174025b21791fdce31968c4787e63"
+    },
+    "theme/assets/legacy/logo_fr.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_fr.gif",
+      "sha256": "42c41e3cfbbecfcb301e1dea74924cd728e53c041a72ef7cfb95cdb0d9392827"
+    },
+    "theme/assets/legacy/logo_it.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_it.gif",
+      "sha256": "3518d7caef08a28dd40bf3039f483626fe63aa2d4f41f9fc709f17e02949db11"
+    },
+    "theme/assets/legacy/logo_pt.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_pt.gif",
+      "sha256": "267f5666cb831f7e31204f4374d397bb097aa247ed1834fb334bc2b5e89a1fdb"
+    },
+    "theme/assets/legacy/logo_se.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_se.gif",
+      "sha256": "b7f99b6269e5682d8554c42f78410fc95c146a60c79d3ce55d55426c880b717e"
+    },
+    "theme/assets/legacy/logo_tr.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/logo_tr.gif",
+      "sha256": "60aabc5a999165e68cc468e17aaa30dd1f7506d2b1d09e128afc0be23706bf3a"
+    },
+    "theme/assets/legacy/print_dark.gif": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/images/print_dark.gif",
+      "sha256": "49894d52c06b6f8e1c29b0b3f82245bcd3f439108e4cd3a7c4f16360ed896742"
+    },
+    "theme/assets/legacy/PT-44.png": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/sponsor_logo/PT-44.png",
+      "sha256": "3caa67f01d25869de5a96d925d485d14bfd7110dc99bc2fbafb252b27c90f0d7"
+    },
+    "theme/assets/legacy/yasar.png": {
+      "source": "https://baroqueart.museumwnf.org/exhibitions/BAR/sponsor_logo/yasar.png",
+      "sha256": "36d460d80fb84e7345b7bedc6d605412feef3cb6f284d5f45431b8e4b1064757"
+    }
+  }
 }
