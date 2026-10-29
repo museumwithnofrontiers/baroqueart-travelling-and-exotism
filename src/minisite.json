@@ -1,6 +1,21 @@
 {
-  "legacy": "TODO(dataset): run inventory-app's scripts/minisites/legacy-minisite.mjs",
+  "legacy": "https://baroqueart.museumwnf.org/exhibitions/BAR/travelling_and_exotism/",
+  "family": "BAR",
   "menuSecondColumnFrom": 7,
-  "curators": [],
+  "curators": [
+    {
+      "partner": "4df52263-9f4f-577a-8758-36bd2784101b",
+      "place": "Lisbon",
+      "country": "prt",
+      "logo": "legacy/PT-44.png",
+      "space": 35
+    }
+  ],
+  "design": {
+    "name": "Yasar University Izmir, Turkey",
+    "logo": "legacy/yasar.png",
+    "href": "http://www.yasar.edu.tr/en/"
+  },
+  "banner": "legacy/banner.png",
   "maps": 0
 }

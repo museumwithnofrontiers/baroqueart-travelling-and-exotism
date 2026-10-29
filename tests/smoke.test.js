@@ -89,7 +89,7 @@ describe('website smoke test', () => {
     const { app, host } = await mountSite(config, messages, '#/exhibition/1/1?lang=en')
     await vi.waitFor(() => expect(host.querySelector('.mwnf-minisite-page__caption')).not.toBeNull(), { timeout: 20000 })
     expect(host.textContent).toContain('Exhibition homepage')
-    expect(checkTextsRendered(host, { namespaces: [labelSet(config.minisite), '__SITE_NAMESPACE__', 'core', 'layout'] })).toEqual([])
+    expect(checkTextsRendered(host, { namespaces: [labelSet(config.minisite), 'travellingAndExotism', 'core', 'layout'] })).toEqual([])
     app.unmount()
   }, 30000)
 })
