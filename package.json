@@ -1,5 +1,5 @@
 {
-  "name": "__DATASET__",
+  "name": "baroqueart-travelling-and-exotism",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,10 +13,10 @@
   },
   "viewerI18n": {
     "class": "minisite",
-    "namespace": "__SITE_NAMESPACE__"
+    "namespace": "travellingAndExotism"
   },
   "dependencies": {
-    "@museumwnf/__DATASET__-data": "0.0.0-REPLACE-ME",
+    "@museumwnf/baroqueart-travelling-and-exotism-data": "^1.0.1",
     "@museumwnf/viewer-core": "^2.10.0",
     "@museumwnf/viewer-i18n": "^6.3.0",
     "@museumwnf/viewer-layout": "^3.12.0",

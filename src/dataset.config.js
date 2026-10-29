@@ -49,13 +49,13 @@ const { parent, noCountry, documentTitle } = FAMILIES[family]
 export default {
   // The dataset package this website renders. Must match the alias in
   // vite.config.js and the dependency in package.json.
-  datasetPackage: '@museumwnf/__DATASET__-data',
+  datasetPackage: '@museumwnf/baroqueart-travelling-and-exotism-data',
 
-  siteName: manifest.site?.names?.en ?? '__SITE_NAME__',
+  siteName: manifest.site?.names?.en ?? 'Travelling and Exoticism',
 
   // The absolute origin this build is deployed at, base path included, no
   // trailing slash: the GitHub Pages address of this repository.
-  site: { origin: 'https://museumwithnofrontiers.github.io/__DATASET__' },
+  site: { origin: 'https://museumwithnofrontiers.github.io/baroqueart-travelling-and-exotism' },
 
   features: { entities: [] },
 
