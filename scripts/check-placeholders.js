@@ -44,10 +44,10 @@ const CONFIGURED_FILES = [
 ]
 
 const TEXT_PLACEHOLDERS = {
-  __SITE_NAME__: 'this exhibition’s human-readable display name (e.g. "The Umayyads")',
+  __SITE_NAME__: 'this exhibition’s human-readable display name (e.g. "Absolutism")',
   __SITE_NAMESPACE__:
     'the name this website’s own entries carry, one lowercase word ' +
-    '(e.g. umayyads, arabicCalligraphy)',
+    '(e.g. absolutism, travellingAndExotism)',
 }
 
 const read = (file) => {
@@ -72,12 +72,12 @@ if (unreplaced.length === 0 && !hasPlaceholderVersion && unreplacedText.length =
   process.exit(0)
 }
 
-const lines = ['', 'This repository is still the unconfigured minisite-template.', '']
+const lines = ['', 'This repository is still the unconfigured baroqueart-minisite-template.', '']
 
 if (unreplaced.length > 0) {
   lines.push(`  ${NAME_PLACEHOLDER} is still present in:`)
   for (const file of unreplaced) lines.push(`    - ${file}`)
-  lines.push('', '  Replace it with the website’s slug (e.g. islamicart-the-umayyads) in each file.', '')
+  lines.push('', '  Replace it with the website’s slug (e.g. baroqueart-absolutism) in each file.', '')
 }
 
 if (unreplacedText.length > 0) {
